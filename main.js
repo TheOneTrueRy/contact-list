@@ -40,7 +40,7 @@ function drawContacts() {
           <i class="fa fa-fw fa-phone"></i>
           <span>${contact.phone}</span>
         </p>
-        <i class="action fa fa-trash text-danger" onclick="removeContact("${contact.id}")"></i>
+        <i class="action fa fa-trash text-danger" onclick="removeContact('${contact.id}')"></i>
       </div>
     </div>
     `
